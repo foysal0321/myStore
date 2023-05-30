@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="navbar w-full bg-[#1E1E1E] h-18 text-white">
+        <div class="nav flex flex-wrap justify-around">
+            <div class="logo flex">
+            <h3 class="text-3xl font-bold">My <br><span class="text-[#9460E9]">Store</span></h3> 
+            <img class="absolute ri mt-20" src="./imgs2/icon2.png" alt=""> 
+            <input type="text" class="h-8 bg-[#1E1E1E] border-2 mt-6 mx-3 rounded-xl relative ">
+            </div>       
+           <div class="menu mt-6">
+            <a href="#" class="p-6 text-[#9460E9]">Home</a>
+            <a href="#" class="p-6">Shop</a>
+            <a href="#" class="p-6">About</a>
+            <a href="#" class="p-6">Contact</a>
+           </div>
+           <div class="icon flex">
+           <img class="h-16 w-12 mt-2 mx-2 object-cover rounded-full" src="./imgs2/59.png" alt="Current profile photo" />
+           <img class="h-12 w-10 mt-4 mx-2" src="./imgs/Vector (3).png" alt="">
+           <img class="h-12 w-10 mt-4 mx-2" src="./Vector (4).png" alt="">
+           </div>
+        </div>      
+    </div> 
+
+    <!-- <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between text-black">
+        <div class=" flex justify-between items-center">
+            <span>
+                My Items
+            </span>
+            <span name="menu" onclick="Menu(this)" class='text-3xl cursor-pointer md:hidden block '>
+                =
+            </span>
+        </div>
+        <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg- w-full left-0 md:w-auto md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500">         
+            <li class="mx-4 my-6 md:my-0">
+                <input type="text" class="h-8 bg-[#1E1E1E] border-2 mt-6 mx-3 rounded-xl">
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#">Home</a>
+            </li>         
+            <li class="mx-4 my-6 md:my-0">
+                <img class="h-10 w-10 mt-4 mx-2 object-cover rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="Current profile photo" />
+            </li>
+             <li class="mx-4">
+                <img class="h-12 w-10 mt-4 mx-2" src="./imgs/Vector (3).png" alt="">              
+            </li>
+            <li class="mx-4">
+               <img class="h-12 w-10 mt-4 mx-2" src="./Vector (4).png" alt="">
+            </li>
+        </ul>
+    </nav> -->
+
+    <div class="header py-10 bg-[#1E1A1A]" data-aos="fade-in">
+        <div class="flex flex-wrap max-w-[1300px] mx-auto justify-center">
+        <div class="header-text w-[600px] text-white p-3">
+            <h2 class="text-5xl py-4 font-bold" data-aos="fade-down">Headphone</h2>
+            <p class="py-3 font-semibold text-slate-400" data-aos="fade-down">Turtle Beach - Stealth 700 Gen 2 MAX PS</p>
+            <h5 class="text-2xl text-[#9460E9] py-3">Gaming Headset</h5>
+            <p class="py-6" data-aos="fade-up">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+            <div class="flex py-0">
+             <img src="./imgs//Star 6.png" alt="">   
+             <img src="./imgs//Star 6.png" alt="">   
+             <img src="./imgs//Star 6.png" alt="">   
+             <img src="./imgs//Star 6.png" alt="">   
+            </div>           
+            <div class="flex flex-wrap py-6 mt-4" data-aos="fade-up">
+                <button class="bg-[#9460E9] btn btn-md p-3 rounded-full">ORDER NOW</button>
+                <button class="mx-3 btn rounded-full border-2 p-3">ADD TO CART</button>
+            </div>           
+        </div>
+        <div class="header-img w-[700px] ">
+            <img class="h-[300px] lg:h-[600px]" src="./imgs/kindpng_4182921 2.png" alt="">
+        </div>
+        </div>
+    </div>
+
+    <div class="our-product bg-[#1E1A1A] py-10">
+        <div class=" max-w-[1300px] mx-auto">
+        <div class="list flex flex-wrap justify-between text-white" data-aos="fade-out">
+            <div class="flex flex-wrap ">
+            <h2 class="text-3xl mx-4">Our Product</h2>
+            <button class="bg-[#9460E9] btn p-1 h-10 w-20 rounded-full mx-6">Top</button>
+            <button class="mx-3 btn rounded-full h-10 w-20 border-2 p-1 md:mt-0 mt-4">Popular</button>
+            <button class="mx-3 btn rounded-full h-10 w-32 border-2 p-1 md:mt-0 mt-4">Most Sold</button>
+            </div>                
+            <button class="mx-3 mt-6 md:mt-0 btn rounded-full">View All</button>    
+        </div>
+        <div class="services py-8 mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 " data-aos="fade-out">
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto " >
+                <img class="w-[160px] h-[150px] mx-auto -mt-16" src="./kindpng_4182921 2.png" alt="">
+                <h4 class="font-bold py-2">Turtle Beach</h4>
+                <h6 class="text-gray-400">Headphone</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$20.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto" >
+                <img class="w-[160px] h-[150px] mx-auto -mt-8" src="./imgs/kindpng_7637468 1.png" alt="">
+                <h4 class="font-bold py-2">HyperX Alloy FPS</h4>
+                <h6 class="text-gray-400">Keyboard</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$45.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[160px] h-[150px] mx-auto -mt-0 md:-mt-16" src="./imgs/kindpng_1913154 1.png" alt="">
+                <h4 class="font-bold py-2">Oculus Quest</h4>
+                <h6 class="text-gray-400">VR Glasses</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$1200.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[160px] h-[150px] mx-auto -mt-0 md:-mt-16" src="./imgs/kindpng_6280709 2.png" alt="">
+                <h4 class="font-bold py-2">Razer Death Adder</h4>
+                <h6 class="text-gray-400">Mouse</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$25.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[160px] h-[150px] mx-auto -mt-6" src="./kindpng_14940 1.png" alt="">
+                <h4 class="font-bold py-2">Play Station 4</h4>
+                <h6 class="text-gray-400">Gaming Console</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$300.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[120px] h-[130px] mx-auto -mt-4" src="./imgs/kindpng_95529 1.png" alt="">
+                <h4 class="font-bold py-2">Xbox wireless Controller</h4>
+                <h6 class="text-gray-400">Gamepad</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$23.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[160px] h-[150px] mx-auto -mt-8" src="./imgs/elden-deck-800x450 1.png" alt="">
+                <h4 class="font-bold py-2">Steam Deck</h4>
+                <h6 class="text-gray-400">Gaming Console</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$68.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+            <div class="item h-[320px] w-[280px] bg-[#28282A] text-white text-center mx-auto">
+                <img class="w-[160px] h-[150px] mx-auto -mt-8" src="./imgs/pngfind 2.png" alt="">
+                <h4 class="font-bold py-2">Razer Blade 15</h4>
+                <h6 class="text-gray-400">Laptop</h6>
+                <h6 class="text-[#9460E9] text-2xl font-semibold py-2">$800.50</h6>
+                <h4 class="flex justify-center py-2"><img class="mx-2 h-6" src="./imgs/Vector (4).png" alt=""> AD TO CART</h4>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="reality flex flex-wrap bg-[#1E1A1A] gap-10">
+        <div class="reality-img " >                     
+            <img class="w-[300px] lg:w-[500px]  z-10 mt-48 lg:mt-16 absolute" src="./imgs/pexels-tima-miroshnichenko-7047008-removebg-preview 1.png" alt="">
+            <img class="w-[330px] lg:w-[500px] h-[390px] lg:h-[395px] relative" src="./imgs/Vector 1.png" alt="">
+        </div>
+        <div class="text text-white p-3">
+            <h4 class="py-2 text-2xl" data-aos="fade-down">New Reality</h4>
+            <h2 class="text-4xl font-semibold py-4" data-aos="fade-down">New <span class="text-[#9460E9]">Impressions</span></h2>
+            <p class="text-gray-400 py-2" data-aos="fade-down">Wear VR helmet and start new battles</p>
+            <button class="bg-[#9460E9] btn btn-md p-3 rounded-full ">Go to catalog</button>
+            <div class="items flex flex-wrap py-8 ">
+                <img class='relative w-[400px] h-[190px]' src="./imgs2/Rectangle 13.png" alt="">
+                <div class="item flex flex-wrap absolute mx-6 " >                  
+                    <img class="w-[150px] h-[130px]" src="./kindpng_1913154 1.png" alt="">
+                    <div class="mt-8" data-aos="fade-up">
+                    <h4 class="font-bold py-3">Oculus Quest</h4>
+                    <p>VR Glasses</p>
+                    <h5 class="text-2xl font-semibold text-[#9460E9] flex justify-center">$20.50
+                        <img class="h-4 mx-3 mt-2" src="./imgs2/Vector (4).png" alt="">
+                    </h5>
+                    </div>
+                </div>                            
+                <div class="item flex flex-wrap mx-0 lg:mx-16" data-aos="fade-down" >
+                    <img class="w-[150px] h-[130px] " src="./kindpng_1913154 1.png" alt="">                   
+                    <div class="mt-8 ">
+                    <h4 class="font-bold py-3">Oculus Quest</h4>
+                    <p>VR Glasses</p>
+                    <h5 class="text-2xl font-semibold text-[#9460E9] flex justify-center">$20.50
+                        <img class="h-4 mx-3 mt-2" src="./imgs2/Vector (4).png" alt="">
+                    </h5>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+    <div class="selling py-10 bg-[#1E1A1A]">
+        <div class="max-w-[1300px] mx-auto text-white ">
+            <div class="flex flex-wrap justify-between p-3">
+            <h4 class='text-2xl'>Our Best Selling Product</h4>
+            <h5 class="font-semibold">See All</h5>
+            </div>
+            <div class="flex flex-wrap gap-6 justify-between py-8">
+                <div class="max-w-[750px] flex flex-wrap border-1 bg-[#1E1E1E]" data-aos="fade-down">
+                    <div class="w-[320px] p-6 py-6">
+                    <h5 class='py-3 text-slate-400 font-semibold'>Starting Form</h5>
+                    <h3 class="py-2 font-bold text-3xl text-[#9460E9]">$20.50</h3>
+                    <h1 class="py-3 text-2xl ">Turtle Beach Ear Force<br> Recon  50 Gaming Headset</h1>
+                    <p class="py-2 text-slate-400 text-xs">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+                    <h6 class="flex mt-6">GO TO CATALOGS
+                        <img class="mx-3 h-6" src="./imgs2/Vector (4).png" alt="">
+                    </h6>
+                    </div>
+                    <img class="w-[300px] h-[280px] md:h-[370px]" src="./kindpng_4182921 2.png" alt="">
+                </div>
+                <div class="max-w-[650px] flex flex-wrap border-1 bg-[#9460E9]" data-aos="fade-up">
+                    <div class="w-[320px] p-6 py-6">
+                    <h5 class='py-3 text-slate-300 font-semibold'>Starting Form</h5>
+                    <h3 class="py-2 font-bold text-3xl">$20.50</h3>
+                    <h1 class="py-3 text-2xl ">Turtle Beach Ear Force<br> Recon  50 Gaming Headset</h1>
+                    <p class="py-2 text-slate-300 text-xs">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+                    <h6 class="flex mt-6">GO TO CATALOGS
+                        <img class="mx-3 h-6 text-white" src="./imgs2/Vector (4).png" alt="">
+                    </h6>
+                    </div>
+                    <img class="w-[300px] h-[280px] md:h-[370px]" src="./imgs2/kindpng_95529 1.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="quest bg-[#1E1F1F] text-center text-white py-10" data-aos="fade-out">
+         <h1 class="text-5xl font-bold py-8">Oculus <span class="text-[#9460E9]">Quest</span> </h1>
+        <div class="max-w-[1300px] flex justify-center ">   
+        <img class="w-[300px] lg:w-[800px]" src="./imgs2/image 6.png" alt="">
+        </div>
+    </div>
+
+    <div class="get bg-[#6032BB] py-14 md:h-[446px] h-[769px]">
+        <div class="max-w-[1200px] flex flex-wrap justify-between mx-auto">
+            <div class="text text-white p-3" data-aos="fade-up">
+                <h3 class="text-6xl font-bold py-4 text-[#2A0C6C]">GET</h3>
+                <div class="">
+                     <h4 class="text-4xl py-4 font-bold  ">A DISCOUNT</h4>
+                    <!-- <img class="w-[350px] h-[70px] relative" src="./imgs2/Rectangle 21.png" alt=""> -->
+               
+                </div>
+                <h3 class="text-2xl py-4">WITH A PROMO CODE</h3>
+                <button class="bg-[#AB8DE5] p-3 mt-6 rounded-xl">OMAR FARUK</button>
+            </div>
+            <div class="imgs " data-aos="fade-down">
+                <img class="h-[390px] m" src="./imgs2/pngwing 1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-[#1E1A1A] py-14 overflow-hidden" data-aos="fade-out">
+        <div class="max-w-[1300px] mx-auto justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 text-white">
+            <div class="support p-3">
+                <h3 class="text-2xl font-semibold py-4">Support</h3>
+                <div class="flex flex-wrap py-3">
+                    <img class="h-6 w-4" src="./imgs2/call.png" alt="">
+                    <div class="mx-3 lg:mx-10">
+                        <p>9AM - 8AM</p>
+                        <h5 class="text-[#9460E9] py-2 font- class='py-1'bold">16485</h5>
+                    </div>
+                </div>
+                <div class="flex flex-wrap py-3">
+                    <img class="h-6 w-4"  src="./imgs2/Vector (5).png" alt="">
+                    <div class="mx-3 lg:mx-10">
+                        <p>Store Locator</p>
+                        <h5 class="text-[#9460E9] py-2 font-bold">16485</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="about p-3">
+                <h3 class="text-2xl font-semibold py-4">About Us</h3>
+                <div class="grid">
+                <a class='py-2' href="#">EMI Terms</a> 
+                <a class='py-2' href="#">Privacy Policy</a> 
+                <a class='py-2' href="#">Star Point Policy</a>
+                <a class='py-2' href="#">Brand</a>
+                </div>
+            </div>
+            <div class="mt-16 p-3">
+                <div class="grid">
+                    <a class='py-2' href="#">About Us</a> 
+                    <a class='py-2' href="#">Terms & Conditions</a> 
+                    <a class='py-2' href="#">Blog</a>
+                    <a class='py-2 text-[#9460E9]' href="#">Online Service Support</a>
+                    
+                    </div>
+            </div>
+            <div class="mt-16 p-3">
+                <div class="grid">
+                    <a class='py-2' href="#">Online Delivery</a> 
+                    <a class='py-2' href="#">Refund and Return Policy</a> 
+                    <a class='py-2' href="#">Contact Us</a>
+                    <a class='py-2 text-[#9460E9]' href="#">Complain / Advice</a>
+                    </div> 
+            </div>
+            <div class="stay p-3">
+                <h3 class="text-2xl font-semibold py-4">Stay Concened</h3>
+                <p class='py-2'>My Store & Engineering Ltd.</p>
+                <p class='py-2'>Head Office: Dhanmondi 4</p>
+                <p class='py-2'>Nurjahan Tower Rana Plaza.</p>
+                <p class='py-2'>Email :</p>
+                <p class='py-2 text-[#9460E9]'>omarfaruk47.emon@gmail.com</p><br>
+            </div>
+            
+        </div>
+        <div class="flex flex-wrap justify-between max-w-[1300px] mx-auto text-white mt-12 p-3 lg:p-0">
+                <h6>2023 My Store & Engineering LTD l All rights reaserved</h6>
+                <div class="flex flex-wrap mt-6 lg:py-0">
+                    <img class="h-4 w-2 mx-3" src="./imgs2/Vector (6).png" alt="">
+                    <img class="h-4 w-4 mx-3" src="./imgs2/Vector (7).png" alt="">
+                    <img class="h-4 w-4 mx-3" src="./imgs2/Vector (8).png" alt="">
+                    <img class="h-4 w-4 mx-3" src="./imgs2/Vector (9).png" alt=""> <br> 
+                    
+                </div>
+                
+            </div>
+            <div class="max-w-[1300px] flex lg:justify-end mx-auto text-white">
+            <p class="p-3 lg:p-0">Powered By: My Store</p>
+            </div>
+             <hr class="max-w-[1300px] mx-auto py-2 mt-2">
+    </div>
+
+
+
+
+
+
+    <!-- <script>
+        function Menu(e){
+            let list  = document.querySelector('ul')
+            e.name === 'menu' ? (e.name = 'close' , list.classList.add('top-[80px]opacity-0') ) : (e.name = 'menu', list.classList.remove('opacity-100'))
+            console.log(list);
+        }
+    </script> -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
